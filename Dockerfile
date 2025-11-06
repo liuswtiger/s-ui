@@ -37,4 +37,5 @@ RUN apk add --no-cache --update ca-certificates tzdata
 COPY --from=backend-builder /app/sui /app/
 COPY entrypoint.sh /app/
 COPY config.json /app/config.json
+EXPOSE 2095
 ENTRYPOINT [ "./entrypoint.sh" ]
