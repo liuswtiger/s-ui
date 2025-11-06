@@ -1,0 +1,8 @@
+{
+  "log": {
+    "level": "info",
+    "output": "stderr"
+  },
+  "inbounds": [...],
+  "outbounds": [...]
+}
