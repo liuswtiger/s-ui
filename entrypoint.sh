@@ -1,4 +1,4 @@
 #!/bin/sh
 
 ./sui migrate
-./sui
+exec /app/sui -c /app/config.json
